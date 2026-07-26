@@ -4,6 +4,8 @@ A Cisco Packet Tracer lab built while studying for CCNA — a 4-router backbone 
 
 ## Topology
 
+![Topology diagram](topology.png)
+
 ```
                     PC1 (VLAN 10)         PC3 (VLAN 30)
                      |                     |
@@ -68,8 +70,8 @@ Simple `/24` per link (no VLSM — kept deliberately simple for a first lab):
 
 - `ccna-lab-r1-r4-ospf-vlans.pkt` — the Packet Tracer save file. Open with Cisco Packet Tracer to explore the live topology and device configs.
 - `configs/` — `show running-config` output for each router (R1–R4) and switch (SW1–SW8).
+- `topology.png` — screenshot of the topology from Packet Tracer.
 
 ## Possible follow-ups
 
-- Add a topology diagram/screenshot.
 - Extend with ACLs to restrict traffic between specific VLANs (e.g. PC1 ⟷ SRV1 allowed, PC1 ⟷ PC3 blocked) as the next CCNA topic.
